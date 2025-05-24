@@ -11,6 +11,7 @@ import uvloop
 from flask import Flask
 from pyrogram import Client, idle
 from pyrogram.enums import ChatMemberStatus
+import pyrogram
 from pyrogram.types import (
     BotCommand,
     BotCommandScopeAllChatAdministrators,
